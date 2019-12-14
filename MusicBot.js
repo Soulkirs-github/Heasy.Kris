@@ -231,5 +231,5 @@ function play(guild, song) {
 }
 
 
-acces_token = process.env[BOT_TOKEN]
-client.login(acces_token);
+access_token = process.env[BOT_TOKEN]
+client.login(access_token);
