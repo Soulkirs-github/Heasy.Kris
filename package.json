@@ -1,23 +1,19 @@
 {
-  "name": "music",
+  "name": "musicbot",
   "version": "1.0.0",
-  "description": "Heasy Official`s Kris Musicbot!",
+  "description": "HeasyOfficials musicbot",
   "main": "MusicBot.js",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "node-opus": "^0.3.3",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^1.0.3"
+    "discord.js node-opus"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "none"
-  },
-  "keywords": [
-    "none"
-  ],
-  "author": "none",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^11.5.1",
-    "simple-youtube-api": "^5.2.1",
-    "ytdl-core": "^1.0.3"
-  }
+  "author": "",
+  "license": "ISC"
 }
