@@ -1,0 +1,5 @@
+exports.PREFIX = '*';
+
+exports.GOOGLE_API_KEY = 'AIzaSyBpV8l4IaeGWYT8CFaRLl5-p_Q8IwE0cKI';
+
+exports.OWNERS = '490878001714692117'
