@@ -4,7 +4,7 @@
 
 
 const { Client, Util, } = require('discord.js');
-const { TOKEN, PREFIX, GOOGLE_API_KEY, OWNERS } = require('./config');
+const { PREFIX, GOOGLE_API_KEY, OWNERS } = require('./config');
 const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
 const VERSION = '0.0.2';
@@ -231,5 +231,5 @@ function play(guild, song) {
 }
 
 
-
-client.login(TOKEN)
+acces.token = process.env["BOT_TOKEN"]
+client.login('acces.token')
