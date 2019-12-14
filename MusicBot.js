@@ -232,4 +232,4 @@ function play(guild, song) {
 
 
 acces_token = process.env["BOT_TOKEN"]
-bot.login(acces_token); 
+client.login(acces_token); 
