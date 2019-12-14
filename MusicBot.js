@@ -8,7 +8,7 @@ const { PREFIX, GOOGLE_API_KEY, OWNERS } = require('./config');
 const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
 const VERSION = '0.0.2';
-var os = require('os')
+var os = require('os');
 
 
 const client = new Client({ disableEveryone: true });
