@@ -1,4 +1,4 @@
-exports.PREFIX = '*';
+exports.PREFIX = '_';
 
 exports.GOOGLE_API_KEY = 'AIzaSyBpV8l4IaeGWYT8CFaRLl5-p_Q8IwE0cKI';
 
