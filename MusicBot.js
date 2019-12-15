@@ -7,7 +7,7 @@ const { Client, Util, } = require('discord.js');
 const { PREFIX, GOOGLE_API_KEY, OWNERS } = require('./config');
 const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
-const VERSION = '0.0.2';
+const VERSION = '0.0.3';
 var os = require('os')
 
 
@@ -27,7 +27,7 @@ client.on('ready', function() {
 	console.log('[META][정보] Discord API 서비스와의 연결을 성공했습니다!');
 	console.log(`[META][정보] ${client.users.size} 명의 유저와, ${client.channels.size} 개의 채팅 채널과 ${client.guilds.size} 개의 서버와 함께합니다!`);
 	console.log('[META][정보] 소유자 : ' + OWNERS)
-	client.user.setActivity(`*help로 Kris를 알아보세요!`)
+	client.user.setActivity(`_help로 Kris를 알아보세요!`)
 });
 
 client.on('disconnected', function() {
